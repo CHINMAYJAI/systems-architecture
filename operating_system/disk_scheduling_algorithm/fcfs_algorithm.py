@@ -1,4 +1,4 @@
-class FifoPageReplacement:
+class FcfsPageReplacement:
     def __init__(self):
         # Initialize an empty list to store the input disk positions
         self.array_strings = []
@@ -71,5 +71,5 @@ class FifoPageReplacement:
 
 if __name__ == "__main__":
     # Create an instance of FifoPageReplacement and call the main method
-    fifo = FifoPageReplacement()
-    fifo.main()
+    fcfs = FcfsPageReplacement()
+    fcfs.main()
