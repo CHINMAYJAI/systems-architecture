@@ -1,4 +1,4 @@
-class FcfsPageReplacement:
+class FcfsDiskSchedulingAlgorithm:
     def __init__(self):
         # Initialize an empty list to store the input disk positions
         self.array_strings = []
@@ -71,5 +71,5 @@ class FcfsPageReplacement:
 
 if __name__ == "__main__":
     # Create an instance of FifoPageReplacement and call the main method
-    fcfs = FcfsPageReplacement()
+    fcfs = FcfsDiskSchedulingAlgorithm()
     fcfs.main()
