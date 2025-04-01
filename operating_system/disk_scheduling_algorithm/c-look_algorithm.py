@@ -106,5 +106,5 @@ class CLookAlgorithm:
         return self.seek_time
 
 if __name__ == "__main__":
-    look_algo = CLookAlgorithm()
-    print(f"Seek Time: {look_algo.main()}")
+    c_look_algo = CLookAlgorithm()
+    print(f"Seek Time: {c_look_algo.main()}")
